@@ -1,1 +1,15 @@
-More text
+
+--- creating/updating simple files ---
+in the bash shell use:
+cat > filename {to then type your text & hit enter, CTRL + D to save}
+cat >> filename {same as above, this time it appends file}
+
+
+---------------- Git help
+git add {filename or LINUX-style search combo string thing}
+git commit -a {stage any previously staged files & commit everything}
+git commit -m 'Some note about this commit' {this avoids the need to enter VIM to make notes about this commit}
+----- common commit usage ---
+git commit -am
+
+
